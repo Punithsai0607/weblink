@@ -6,10 +6,10 @@ import {
   Info,
   CheckCircle2,
   Sparkles,
-  Layers,
   ArrowRight
 } from 'lucide-react';
-import { PROJECTS, Project } from '../data/portfolioData';
+import { PROJECTS } from '../data/portfolioData';
+import type { Project } from '../data/portfolioData';
 import { ProjectModal } from './ProjectModal';
 
 export const Projects: React.FC = () => {

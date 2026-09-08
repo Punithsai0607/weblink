@@ -84,7 +84,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-xs font-mono text-slate-500">GitHub Profile</p>
-                  <p className="text-sm font-medium text-slate-200 group-hover:text-white transition-colors">punithsai0607</p>
+                  <p className="text-sm font-medium text-slate-200 group-hover:text-white transition-colors">Punithsai0607</p>
                 </div>
               </a>
 

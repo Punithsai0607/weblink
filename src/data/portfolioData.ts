@@ -49,8 +49,8 @@ export const PERSONAL_INFO = {
   subtext: "Specializing in React, Python/FastAPI, Node.js, and AI integrations. Focused on delivering production-ready software with clean architecture and solid test coverage.",
   location: "India",
   email: "punithsai0607@gmail.com",
-  github: "https://github.com/punithsai0607", // Replaceable placeholder if different
-  linkedin: "https://linkedin.com/in/punithsai", // Replaceable placeholder
+  github: "https://github.com/Punithsai0607",
+  linkedin: "https://linkedin.com/in/punithsai", // Replace with your real LinkedIn URL
   aboutBio: [
     "I am a passionate Full-Stack Developer with hands-on experience building web applications, AI-powered advisory systems, and machine learning tools.",
     "My focus is on solving practical problems by designing resilient backend APIs, responsive frontends, and seamless database interactions. I value clean code, unit testing, automated workflows, and rapid deployment.",
@@ -130,6 +130,37 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: "analytics-platform",
+    title: "Analytics Platform",
+    tagline: "Production-Quality User Behavior Intelligence Dashboard",
+    shortDescription: "A real-time web analytics platform that tracks user sessions, visualizes click heatmaps, and surfaces behavioral insights — deployed live on Vercel.",
+    fullOverview: "Analytics Platform is a production-grade Next.js application providing comprehensive user behavior intelligence. It features a live dashboard with real-time event tracking, session recording, interactive heatmaps of user clicks, and top-pages analytics. Built with a custom JavaScript tracker injected via script tag, the app collects user interactions without third-party dependencies.",
+    architecture: "Next.js (React) frontend with App Router, server components, and streaming. Custom tracker.js script for client-side event collection. Dashboard with live activity counters, bar chart visualizations, and top-pages ranking. Deployed on Vercel for global edge delivery.",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel", "Custom JS Tracker", "Lucide Icons"],
+    category: "Full-Stack",
+    featured: true,
+    keyFeatures: [
+      "📊 Real-Time Dashboard: Live session counts, page views, events, and click stats updating in real time.",
+      "🔥 Click Heatmap: Visual heatmap overlay showing where users interact most on any tracked page.",
+      "👥 Session Recording: Browse individual user sessions with timestamps and interaction sequences.",
+      "⚡ Custom Tracker Script: Lightweight tracker.js injected into any page without third-party dependencies.",
+      "🌐 Top Pages Analytics: Ranked list of most-visited pages with relative traffic distribution.",
+      "🎨 Premium Dark UI: Glassmorphism design with violet/cyan gradient theme and smooth animations."
+    ],
+    challengesAndImplementation: [
+      "Designed a minimal custom tracker script to capture click coordinates, page views, and session IDs with no external SDK dependency.",
+      "Used Next.js App Router with server streaming to ensure fast initial page load and progressive data hydration.",
+      "Built real-time live indicator and animated stat cards using CSS transitions to convey active data without expensive WebSocket connections."
+    ],
+    githubUrl: "https://github.com/Punithsai0607",
+    liveDemoUrl: "https://analytics-platform-puce.vercel.app/",
+    stats: [
+      { label: "Deployment", value: "Vercel (Live)" },
+      { label: "Framework", value: "Next.js App Router" },
+      { label: "Tracking", value: "Custom JS Tracker" }
+    ]
+  },
+  {
     id: "ai-money-mentor",
     title: "AI Money Mentor",
     tagline: "Production-Ready Fintech & AI Advisory Platform",
@@ -152,7 +183,7 @@ export const PROJECTS: Project[] = [
       "Implemented strict database transaction rollbacks and user isolation filters to prevent cross-account data leaking.",
       "Built deterministic mathematical models for the 0-100 Money Health Score with clear qualitative feedback."
     ],
-    githubUrl: "https://github.com/punithsai0607/AI-Money-Mentor", // Easy to replace
+    githubUrl: "https://github.com/Punithsai0607/ai-money-mentor-new",
     stats: [
       { label: "Backend Tests", value: "34/34 Passed (100%)" },
       { label: "AI Model", value: "GPT-4o-mini" },

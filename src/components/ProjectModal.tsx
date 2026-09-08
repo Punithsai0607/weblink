@@ -5,12 +5,11 @@ import {
   ExternalLink,
   Layers,
   CheckCircle2,
-  AlertTriangle,
   Cpu,
   ShieldCheck,
   Terminal
 } from 'lucide-react';
-import { Project } from '../data/portfolioData';
+import type { Project } from '../data/portfolioData';
 
 interface ProjectModalProps {
   project: Project | null;

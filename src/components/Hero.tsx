@@ -6,7 +6,6 @@ import {
   CheckCircle2,
   Terminal as TerminalIcon,
   Play,
-  Layers,
   Sparkles,
   ShieldCheck,
   Cpu
@@ -219,7 +218,7 @@ export const Hero: React.FC = () => {
                       // AI Advisory Prompt & Context Engineering
                     </div>
                     <div className="bg-slate-900 p-3 rounded-lg border border-slate-800 text-slate-300 font-mono text-[11px] leading-relaxed">
-                      <span className="text-purple-400">const</span> prompt = <span className="text-emerald-300">`Analyze user aggregates: Savings Rate: \${savingsRate}%, Expense Ratio: \${expenseRatio}%. Provide 3 actionable financial recommendations.`</span>;
+                      <span className="text-purple-400">const</span> prompt = <span className="text-emerald-300">{`"Analyze: Savings Rate: 34%, Expense Ratio: 61%. Give 3 actionable tips."`}</span>;
                     </div>
                     <div className="grid grid-cols-2 gap-2">
                       <div className="bg-slate-900/80 p-2 rounded border border-slate-800 text-slate-300 flex items-center gap-2">
